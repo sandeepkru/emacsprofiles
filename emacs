@@ -77,12 +77,7 @@
 (global-ede-mode 1)
 
 ;; Enable EDE for a pre-existing C++ project
-;;(ede-cpp-root-project "RAIDCore" :file ""/home/sandeepu/Documents/RAIDCore/Makefile")
-;; (if (file-exists-p "/home/sandeepu/Documents/RAIDCore/Makefile")
-;;     (ede-cpp-root-project "RAIDCore" 
-;; 			  :file "/home/sandeepu/Documents/RAIDCore/Makefile"
-;; 			  :system-include-path '("/usr/include")
-;; 			  :include-path  '("/home/sandeepu/Documents")))
+
 (ede-cpp-root-project "leveldb" :file "~/gopher/sandeepu/Documents/leveldb/Makefile")
 (if (file-exists-p "~/gopher/sandeepu/Documents/leveldb/Makefile")
     (ede-cpp-root-project "leveldb" 
