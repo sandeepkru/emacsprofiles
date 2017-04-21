@@ -222,7 +222,6 @@
 (add-hook 'c-mode-common-hook 'sandeep/cedet-hook)
 ;; Package zygospore
 (global-set-key (kbd "C-x 1") 'zygospore-toggle-delete-other-windows)
-(setq default-directory "C:/git/Storage/XArchive")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
